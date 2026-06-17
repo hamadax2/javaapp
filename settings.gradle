@@ -7,8 +7,8 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
-    // PREFER_SETTINGS allows settings.gradle to be the boss
-    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    // This is strict: forces all dependencies to be resolved here
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()

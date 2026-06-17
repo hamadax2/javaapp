@@ -1,6 +1,4 @@
-buildscript {
-    dependencies {
-        // This is all that belongs here now
-        classpath 'com.android.tools.build:gradle:8.2.0'
-    }
+// Root build.gradle
+plugins {
+    id 'com.android.application' version '8.2.0' apply false
 }
