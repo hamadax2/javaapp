@@ -22,7 +22,7 @@ jobs:
 
     - name: Build with Gradle
       # Use './gradlew' (the wrapper) instead of 'gradle' command
-      run: ./gradlew assembleDebug
+      run: gradlew assembleDebug
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
